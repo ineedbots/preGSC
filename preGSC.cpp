@@ -10,6 +10,7 @@
 #ifdef _WIN32
 	#include <direct.h>
 	#include <windows.h>
+	#include <algorithm>
 	#include "dirent.h"
 #else
 	#include <cstdlib>
